@@ -1,24 +1,7 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. change example.database.yml to database.yml and update as per your database configuration
+2. see the model structure, you can assume whats happening there
+3. go to rails console: rails c
+run below command to see data from old table
+BaseEcommerce::Spree::Address.first
+run below command to see data from new table which is empty
+Snowgum::Spree::Address.first
